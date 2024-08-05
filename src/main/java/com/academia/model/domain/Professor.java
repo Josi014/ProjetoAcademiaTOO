@@ -58,7 +58,7 @@ public class Professor extends Pessoa {
         DecimalFormat formatoNum = new DecimalFormat("0.0#");
 
         String txt = "Data da folha gerada: " + mascaraData.format(data);
-        txt += "\n" + nome;
+        txt += "\nNome-> " + nome;
         txt += "\nHistórico de horas: " + mostraHistoricoHorasTrabalhadas();
         txt += "\nHistórico folha pagamento: " + mostraHistoricoPagamento();
 
